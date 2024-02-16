@@ -2,7 +2,7 @@ module parallel_subtractor(a,b,ci,d,co);
 input a,b,ci;
 output d,co;
 assign d=a^b^ci;
-assign co=((~a&b)|~(a^b)&ci);
+assign co=(a & b) | (b & ci) | (ci & a);
 endmodule    
 
 module parallel_full_subtractor(

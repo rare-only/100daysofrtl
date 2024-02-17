@@ -1,0 +1,116 @@
+$date
+	Sat Feb 17 17:56:20 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Look_a_head_carry_tb $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " co $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % ci $end
+$scope module lahc $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 1 % ci $end
+$var wire 1 ( g0 $end
+$var wire 1 ) g1 $end
+$var wire 1 * g2 $end
+$var wire 1 + g3 $end
+$var wire 1 , p0 $end
+$var wire 1 - p1 $end
+$var wire 1 . p2 $end
+$var wire 1 / p3 $end
+$var wire 4 0 sum [3:0] $end
+$var wire 1 " co $end
+$var wire 4 1 c [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 1
+b1011 0
+1/
+0.
+1-
+1,
+0+
+0*
+0)
+0(
+b11 '
+b1000 &
+0%
+b11 $
+b1000 #
+0"
+b1011 !
+$end
+#10
+b1010 $
+b1010 '
+b1 #
+b1 &
+#20
+b110 1
+b1100 !
+b1100 0
+0/
+1)
+1*
+0,
+0-
+b110 $
+b110 '
+b110 #
+b110 &
+#30
+1"
+b1110 1
+b101 !
+b101 0
+1/
+1,
+b1110 $
+b1110 '
+b111 #
+b111 &
+#40
+0"
+b0 1
+b1111 !
+b1111 0
+0)
+0*
+1-
+1.
+b110 $
+b110 '
+b1001 #
+b1001 &
+#50
+b1101 !
+b1101 0
+0-
+b100 $
+b100 '
+#60
+1"
+b1110 1
+b1101 !
+b1101 0
+1+
+0/
+1)
+1*
+0.
+b1110 $
+b1110 '
+b1111 #
+b1111 &
+#80

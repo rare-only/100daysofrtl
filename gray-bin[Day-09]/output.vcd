@@ -1,0 +1,41 @@
+$date
+	Sun Feb 18 21:50:01 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module gray_bin_tb $end
+$var wire 4 ! bin [3:0] $end
+$var reg 4 " gray [3:0] $end
+$scope module g_b $end
+$var wire 4 # gray [3:0] $end
+$var wire 4 $ bin [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110 $
+b101 #
+b101 "
+b110 !
+$end
+#10
+b1100 !
+b1100 $
+b1010 "
+b1010 #
+#20
+b10 !
+b10 $
+b11 "
+b11 #
+#30
+b1110 !
+b1110 $
+b1001 "
+b1001 #
+#40
